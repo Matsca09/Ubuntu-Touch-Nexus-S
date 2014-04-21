@@ -1,0 +1,5 @@
+#!/bin/sh 
+mv boot.img boot.old
+./repack-bootimg.pl ./boot.img-kernel.gz ./boot.img-ramdisk boot.img
+rm -rf boot.img-ramdisk *.gz
+sudo fastboot boot boot.img

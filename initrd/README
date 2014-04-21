@@ -1,0 +1,5 @@
+This is my custom initrd for Ubuntu Touch.
+
+Two scripts are in this directory:
+ -> dec: decompress the boot.img ramdisk (boot.img-ramdisk) and kernel (boot.img-kernel.gz)
+ -> rep: move the old boot.img into boot.old, compress boot.img-ramdisk and boot.img-kernel.gz into a brand-new boot.img, remove temp files and boot the boot.img via fastboot.

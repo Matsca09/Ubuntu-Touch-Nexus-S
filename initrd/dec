@@ -1,0 +1,2 @@
+#!/bin/sh
+./unpack-bootimg.pl boot.img
