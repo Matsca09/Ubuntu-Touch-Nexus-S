@@ -1,6 +1,17 @@
-I've decided to remove temporarily the script (I'm working on the new release of Ubuntu Touch, so I'll update the script as soon as possible).
+This repo contains parts of my Ubuntu Touch port.
 
-You can, however, use the Ubuntu Touch prebuilt image+base system you can find 
-on my topic on XDA: http://forum.xda-developers.com/showthread.php?t=2162735
+'device_samsung_crespo' is the configuration directory for the Ubuntu Touch/CM source tree.
+
+'initrd' folder contains a initramfs written by me used as alternative to original Ubuntu initrd.
+
+'get-ubuntu.sh' script is the usual script used to obtain the Ubuntu filesystem directly from Canonical/Ubuntu servers; the last update includes the possibility to remove the sample files (if they still exist in the image) and a necessary udev rule file creation (for newer images).
+
+
+These pieces of software are released 'as-is', so use them at your own risk: I don't take any responsibility.
+
+
+
+If you want to try a prebuilt Ubuntu Touch image, you can find on my topic on XDA: http://forum.xda-developers.com/showthread.php?t=2162735
 
 Matsca09
+
